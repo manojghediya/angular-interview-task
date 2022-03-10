@@ -1,0 +1,39 @@
+@import 'src/assets/scss/variable';
+
+.header {
+    height: 158px;        
+    .logo {
+        position: absolute;
+        top: 10px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        .image-box {
+            height: 100px;
+            width: auto;
+            .image-logo {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+    .header-container {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 40px;
+        .center-name {
+            color: $blueTextColor;
+            line-height: 1.5;
+            margin: 0;
+        }
+        .text {
+            display: block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: $blueTextColor;
+            font-size: 14px;
+        }
+    }
+}
