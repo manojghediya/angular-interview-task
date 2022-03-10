@@ -1,0 +1,42 @@
+.reimbursement {
+    background-color: #0023ad;
+    color: #39d446;
+    padding: 20px;
+    border-radius: 20px;
+    .top {
+        text-align: center;
+        h3 {
+            margin: 0;
+        }
+    }
+    .bottom {
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+    .table {
+        width: 650px;
+        border-spacing: 0 6PX;
+        border-collapse: separate;
+        tr {
+            margin-bottom: 5px;
+            th {
+                padding: 5px;
+                text-align: left;
+            }
+            td {
+                padding: 5px 10px;
+                background-color: #576ec9;
+                font-size: 12px;
+                &:last-child {
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+                &:first-child {
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+            }
+        }
+    }
+}

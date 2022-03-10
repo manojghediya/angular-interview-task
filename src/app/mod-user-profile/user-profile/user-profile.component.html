@@ -12,12 +12,20 @@
         </div>
     </div>
     <div class="right-container">
-        <div class="days">
-            <span class="big-day">18</span>
-            <span class="remaining-day">of 31 Days</span>
+        <div *ngIf="!showAlert">
+            <div class="days">
+                <span class="big-day">18</span>
+                <span class="remaining-day">of 31 Days</span>
+            </div>
+            <div class="msg">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
         </div>
-        <div class="msg">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        </div>        
+        <div *ngIf="showAlert">
+            <div class="days">
+                <span class="big-day">4</span>
+                <span class="remaining-day">Alerts</span>
+            </div>
+        </div>
     </div>
 </div>

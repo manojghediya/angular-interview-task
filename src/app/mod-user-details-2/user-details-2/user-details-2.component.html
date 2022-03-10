@@ -1,18 +1,18 @@
 <app-header></app-header>
 <div class="wrapper">
-    <app-user-profile [showAlert]="false"></app-user-profile>
+    <app-user-profile [showAlert]="true"></app-user-profile>
     <div class="inner-wrapper">
         <div class="left">
             <app-timeline></app-timeline>
         </div>
         <div class="right">
-            <app-engagement-type></app-engagement-type>
+            <app-communication></app-communication>
         </div>
     </div>
     <app-reimbursement></app-reimbursement>
-    
-    <!-- Go to next screen -->
+
+    <!-- Go to previous screen -->
     <div class="url">
-        <a href="javascript:void(0)" [routerLink]="'/screen-2'">Next Screen</a>
+        <a href="javascript:void(0)" [routerLink]="'/'">Previous Screen</a>
     </div>
 </div>

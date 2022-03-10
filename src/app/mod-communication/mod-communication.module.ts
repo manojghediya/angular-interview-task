@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TimelineComponent } from './timeline/timeline.component';
+import { CommunicationComponent } from './communication/communication.component';
 
 @NgModule({
   declarations: [
-    TimelineComponent
+    CommunicationComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    TimelineComponent
+    CommunicationComponent
   ]
 })
-export class ModTimelineModule { }
+export class ModCommunicationModule { }

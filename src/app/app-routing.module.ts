@@ -7,8 +7,8 @@ const routes: Routes = [
 		loadChildren: () => import('./mod-user-details/mod-user-details.module').then(m => m.ModUserDetailsModule) 
 	},	
 	{ 
-		path: 'user-detail', 
-		loadChildren: () => import('./mod-user-details/mod-user-details.module').then(m => m.ModUserDetailsModule) 
+		path: 'screen-2', 
+		loadChildren: () => import('./mod-user-details-2/mod-user-details-2.module').then(m => m.ModUserDetailsModule2) 
 	}	
 ];
 

@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-user-profile',
-  templateUrl: './user-profile.component.html',
-  styleUrls: ['./user-profile.component.scss']
+	selector: 'app-user-profile',
+	templateUrl: './user-profile.component.html',
+	styleUrls: ['./user-profile.component.scss']
 })
 export class UserProfileComponent implements OnInit {
 
-  constructor() { }
+	@Input('showAlert')
+	public showAlert: boolean = false;
 
-  ngOnInit(): void {
-  }
+	constructor() { }
+
+	ngOnInit(): void {
+	}
 
 }

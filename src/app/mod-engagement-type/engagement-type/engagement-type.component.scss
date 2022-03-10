@@ -1,0 +1,43 @@
+@import 'src/assets/scss/variable';
+.engagement {
+    display: flex;
+    flex-direction: column;
+    .top {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 170px;
+        background-color: #e5e5e5;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        align-items: center;
+        padding: 0px 150px;
+        h2 {
+            color: $blueTextColor;
+        }
+        i {
+            margin: 5px 10px;
+            font-size: 16px;
+            color: green;
+        }
+    }
+    .bottom {
+        min-height: 50px;
+        background-color: #c1bdbd;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 200px 10px;
+        .box {
+            margin: 8px 20px;
+            i {
+                background-color: #fff;
+                padding: 3px;
+                font-size: 18px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

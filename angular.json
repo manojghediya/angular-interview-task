@@ -35,7 +35,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/scss/styles.scss"
+              "src/assets/scss/styles.scss",
+              "src/assets/font-awesome-5/scss/fontawesome.scss",
+              "src/assets/font-awesome-5/scss/solid.scss",
+              "src/assets/font-awesome-5/scss/regular.scss"
             ],
             "scripts": []
           },

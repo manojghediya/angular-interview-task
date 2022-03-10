@@ -1,0 +1,46 @@
+.communication {
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 20px;
+    .top {
+        text-align: center;
+        h2 {
+            margin: 0 0 10px;
+        }
+    }
+    .bottom {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .table {
+        width: 600px;
+        font-weight: 600;
+        thead {
+            margin-bottom: 5px;
+            th {
+                padding: 5px;
+                text-align: center;
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    padding: 5px 10px;
+                    text-align: center;
+                    &:nth-child(1) {
+                        text-align: left;
+                    }
+                }
+                &:nth-child(odd) {
+                    background-color: #dcdcdc;
+                }
+            }
+        }
+    }
+    p {
+        font-weight: 600;
+    }
+}

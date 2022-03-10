@@ -4,7 +4,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './config/core.module';
 import { ModUserProfileModule } from './mod-user-profile/mod-user-profile.module';
-import { ModTimelineModule } from './mod-user-profile/mod-timeline/mod-timeline.module';
+import { ModEngagementTypeModule } from './mod-engagement-type/mod-engagement-type.module';
+import { ModReimbursementModule } from './mod-reimbursement/mod-reimbursement.module';
+import { ModCommunicationModule } from './mod-communication/mod-communication.module';
 
 @NgModule({
 	declarations: [
@@ -14,8 +16,10 @@ import { ModTimelineModule } from './mod-user-profile/mod-timeline/mod-timeline.
 		CoreModule,
 		BrowserModule,
 		AppRoutingModule,
-  ModUserProfileModule,
-  ModTimelineModule,
+		ModUserProfileModule,
+  ModEngagementTypeModule,
+  ModReimbursementModule,
+  ModCommunicationModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent]
